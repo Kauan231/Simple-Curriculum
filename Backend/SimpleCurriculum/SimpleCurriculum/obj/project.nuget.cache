@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "LRd4xr6x6SOXix/pPUBfs1zQjJPrlfve6cvsNmJoMH40vRkdH0hl9fCd/3Ag1yoPW8bSXWrFSIL+K8IY/MDQYA==",
+  "success": true,
+  "projectFilePath": "E:\\PROJETOS\\DOTNET\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\harfbuzzsharp\\7.3.0\\harfbuzzsharp.7.3.0.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0\\harfbuzzsharp.nativeassets.macos.7.3.0.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0\\harfbuzzsharp.nativeassets.win32.7.3.0.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\questpdf\\2023.12.0\\questpdf.2023.12.0.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\skiasharp\\2.88.6\\skiasharp.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\skiasharp.harfbuzz\\2.88.6\\skiasharp.harfbuzz.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.6\\skiasharp.nativeassets.macos.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.6\\skiasharp.nativeassets.win32.2.88.6.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Kauan Ramos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
