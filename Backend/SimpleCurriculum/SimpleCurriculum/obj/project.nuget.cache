@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LRd4xr6x6SOXix/pPUBfs1zQjJPrlfve6cvsNmJoMH40vRkdH0hl9fCd/3Ag1yoPW8bSXWrFSIL+K8IY/MDQYA==",
+  "dgSpecHash": "ew2k+0P196TKhY1VlH4rI1+r6e+1Z4/LWTwD0DIM5qQUoqIHb2X4cAUUaDnU6qus8BGnhypxJuXBN5i1oeJdXQ==",
   "success": true,
-  "projectFilePath": "E:\\PROJETOS\\DOTNET\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
+  "projectFilePath": "E:\\PROJETOS\\GITHUB\\Simple-Curriculum\\Backend\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kauan Ramos\\.nuget\\packages\\harfbuzzsharp\\7.3.0\\harfbuzzsharp.7.3.0.nupkg.sha512",
     "C:\\Users\\Kauan Ramos\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0\\harfbuzzsharp.nativeassets.macos.7.3.0.nupkg.sha512",

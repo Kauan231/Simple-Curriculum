@@ -33,6 +33,10 @@ function Habilidades(props) {
 
     useEffect(() => {
         props.UpdateHabilidades(Habilidades);
+        var inputs = document.querySelectorAll('input');
+        inputs.forEach(element => {
+            element.value = "";
+        });
     }, [Habilidades] );
 
     function ShowList(){

@@ -51,6 +51,17 @@ function Cursos(props) {
         setNomeDoCurso("");
         setInstituição("");
         setCargaHoraria("");
+
+        var inputs = document.querySelectorAll('input');
+        inputs.forEach(element => {
+            element.value = "";
+        });
+
+        var texts = document.querySelectorAll('textarea');
+        texts.forEach(element => {
+            element.value = "";
+        });
+
     }, [Cursos]);
 
     

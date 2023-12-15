@@ -53,6 +53,16 @@ function Experiencias(props) {
         setInicio("");
         setFim("");
         setDescrição("");
+
+        var inputs = document.querySelectorAll('input');
+        inputs.forEach(element => {
+            element.value = "";
+        });
+
+        var texts = document.querySelectorAll('textarea');
+        texts.forEach(element => {
+            element.value = "";
+        });
     }, [experiencias])
 
     function ShowList() {

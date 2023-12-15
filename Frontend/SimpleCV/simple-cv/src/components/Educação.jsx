@@ -68,6 +68,16 @@ function Educacoes(props) {
         setDescrição("");
         setInstituição("");
         setGrau("");
+
+        var inputs = document.querySelectorAll('input');
+        inputs.forEach(element => {
+            element.value = "";
+        });
+
+        var texts = document.querySelectorAll('textarea');
+        texts.forEach(element => {
+            element.value = "";
+        });
     }, [Educacoes]) 
 
     function ShowList(){
@@ -161,9 +171,7 @@ function Educacoes(props) {
                             }}/>
                         <br/>
                         <div className="flex justify-center ">
-                            <button type="button" onClick={ () => {
-                                
-                            }} 
+                            <button type="button" onClick={Validate} 
                             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                                 Adicionar
                             </button> 

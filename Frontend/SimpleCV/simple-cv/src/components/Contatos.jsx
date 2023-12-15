@@ -36,9 +36,8 @@ function Contatos(props) {
 
     useEffect(() => {
         props.UpdateContato(Email,Telefone,Links);
-        setEmail("");
-        setTelefone("");
         setLink("");
+        document.getElementById('link').value = "";
     }, [Links]);
 
     function ShowList(){
@@ -83,7 +82,7 @@ function Contatos(props) {
                     }}/>
                     <br/>
                     <label htmlFor='' className={LabelStyle} >Link</label>
-                    <input type='text' className={TextAreaStyle} onChange={ e => { 
+                    <input type='text' id='link' className={TextAreaStyle} onChange={ e => { 
                         setLink(e.target.value);
                     }}/>
                     <br/>

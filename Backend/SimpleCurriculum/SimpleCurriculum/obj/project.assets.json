@@ -664,11 +664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROJETOS\\DOTNET\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
+      "projectUniqueName": "E:\\PROJETOS\\GITHUB\\Simple-Curriculum\\Backend\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
       "projectName": "SimpleCurriculum",
-      "projectPath": "E:\\PROJETOS\\DOTNET\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
+      "projectPath": "E:\\PROJETOS\\GITHUB\\Simple-Curriculum\\Backend\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum.csproj",
       "packagesPath": "C:\\Users\\Kauan Ramos\\.nuget\\packages\\",
-      "outputPath": "E:\\PROJETOS\\DOTNET\\SimpleCurriculum\\SimpleCurriculum\\SimpleCurriculum\\obj\\",
+      "outputPath": "E:\\PROJETOS\\GITHUB\\Simple-Curriculum\\Backend\\SimpleCurriculum\\SimpleCurriculum\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "E:\\VIRTUAL_LINKS\\Win10\\Appdata\\Roaming\\NuGet\\NuGet.Config",
