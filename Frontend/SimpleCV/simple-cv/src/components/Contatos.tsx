@@ -11,15 +11,19 @@ function Contatos(props) {
     const [Email, setEmail] = useState('');
     const [Telefone, setTelefone] = useState('');
     const [Link, setLink] = useState('');
-    const [Links, setLinks] = useState([]);
+    const [Links, setLinks] = useState([] as any);
 
     function Validate(){
+        const regExp = /[a-zA-Z]/g;
         if(Email.trim().length === 0){
             ShowToast("Email está vazio");
         } 
         if(Telefone.trim().length === 0){
             ShowToast("Telefone está vazio");
         } 
+        if(regExp.test(Telefone)) {
+            ShowToast("Telefone não pode conter letras");
+        }
         if(Link.trim().length === 0){
             ShowToast("Link está vazio");
         } 

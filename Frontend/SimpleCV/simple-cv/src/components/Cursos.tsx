@@ -12,9 +12,10 @@ function Cursos(props) {
     const [NomeDoCurso, setNomeDoCurso] = useState('');
     const [Instituição, setInstituição] = useState('');
     const [CargaHoraria, setCargaHoraria] = useState('');
-    const [Cursos, setCursos] = useState([]);
+    const [Cursos, setCursos] = useState([] as any);
 
     function Validate(){
+        const regExp = /[a-zA-Z]/g;
         let isCorrect = true;
         if(NomeDoCurso.trim().length === 0){
             ShowToast("Nome está vazio");
@@ -28,10 +29,10 @@ function Cursos(props) {
             ShowToast("Carga Horária está vazia");
             isCorrect = false;
         } 
-        if(isNaN(CargaHoraria)){
-            ShowToast("Carga Horária deve ser um número");
-            isCorrect = false;
-        } 
+        if(regExp.test(CargaHoraria)) {
+            ShowToast("Carga Horária não pode conter letras");
+        }
+
 
         if(isCorrect)
         {
@@ -52,12 +53,12 @@ function Cursos(props) {
         setInstituição("");
         setCargaHoraria("");
 
-        var inputs = document.querySelectorAll('input');
+        const inputs = document.querySelectorAll('input');
         inputs.forEach(element => {
             element.value = "";
         });
 
-        var texts = document.querySelectorAll('textarea');
+        const texts = document.querySelectorAll('textarea');
         texts.forEach(element => {
             element.value = "";
         });

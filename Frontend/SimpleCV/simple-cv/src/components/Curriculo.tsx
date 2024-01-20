@@ -69,7 +69,7 @@ function Curriculo() {
             isCorrect = false;
         }
 
-        if(true) {
+        if(isCorrect) {
             console.log(_experiencias);
             try{
                 fetch('http://localhost:5251/CV', {

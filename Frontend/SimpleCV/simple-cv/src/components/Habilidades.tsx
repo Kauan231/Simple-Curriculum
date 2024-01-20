@@ -9,7 +9,7 @@ const LabelStyle = "text-center pb-5 md:text-lg font-semibold leading-relaxed te
 
 function Habilidades(props) {
     const [NomeDaHabilidade, setNomeDaHabilidade] = useState('');
-    const [Habilidades, setHabilidades] = useState([]);
+    const [Habilidades, setHabilidades] = useState([] as any);
 
     function Validate(){
         let isCorrect = true;
@@ -41,9 +41,7 @@ function Habilidades(props) {
 
     function ShowList(){
         return (
-            <ul className=" mb-8 bg-white rounded-lg mr-5 bg-opacity-25 md:flex md:flex-wrap">
-    
-                    
+            <ul className=" mb-8 bg-white rounded-lg mr-5 bg-opacity-25 md:flex md:flex-wrap">                        
                     {Habilidades.map(habilidades => (
                         <li className="p-2" key={habilidades.id}>
                             <div className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
