@@ -106,6 +106,6 @@ Simple-Curriculum é um projeto pessoal para aprimorar minhas habilidades em ASP
 
 ## Demonstração
 
-[Curriculo (6).pdf](https://github.com/Kauan231/Simple-Curriculum/files/13996079/Curriculo.6.pdf)
+![image](https://github.com/Kauan231/Simple-Curriculum/assets/63317471/6e1e6ba6-4e05-49a1-a9b0-51f5d4b473d2)
 
 
